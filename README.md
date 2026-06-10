@@ -2,7 +2,7 @@
 
 **Explainable Multi-Signal Candidate Intelligence Engine**
 
-TalentLens AI ranks candidates the way an experienced recruiter would — combining semantic relevance, skill coverage, career alignment, availability signals, and platform trust indicators instead of relying on keyword matching alone.
+TalentLens AI ranks candidates the way an experienced recruiter would — combining semantic relevance, skill coverage, career alignment, availability signals, and platform trust indicators instead of relying solely on keyword matching.
 
 ---
 
@@ -19,7 +19,7 @@ The system:
 * Explains strengths and gaps
 * Generates recruiter-ready ranked shortlists
 
-Designed for large-scale hiring workflows, TalentLens AI can process and rank **10,000+ candidates in seconds**.
+Designed for large-scale hiring workflows, TalentLens AI can process and rank **10,000+ candidates within seconds**.
 
 ---
 
@@ -69,6 +69,30 @@ Each candidate receives:
 * Risk flags
 * Top strengths
 * Missing skills
+
+---
+
+## Screenshots
+
+### Dashboard & Data Upload
+
+![Dashboard](screenshots/1-dashboard-upload.png)
+
+### Ranking Results Overview
+
+![Results Overview](screenshots/2-results-overview.png)
+
+### Explainable Candidate Analysis
+
+![Candidate Analysis](screenshots/3-candidate-details.png)
+
+### Analytics & Score Visualization
+
+![Analytics](screenshots/4-score-analysis.png)
+
+### Ranked Candidate Table
+
+![Ranked Table](screenshots/5-ranked-table.png)
 
 ---
 
@@ -196,6 +220,13 @@ TalentLens-AI/
 ├── candidate_parser.py
 ├── embeddings.py
 │
+├── screenshots/
+│   ├── 1-dashboard-upload.png
+│   ├── 2-results-overview.png
+│   ├── 3-candidate-details.png
+│   ├── 4-score-analysis.png
+│   └── 5-ranked-table.png
+│
 ├── outputs/                 # Generated after running the app
 │
 ├── requirements.txt
@@ -264,4 +295,10 @@ streamlit run app.py
 
 ---
 
-Built by **Manshi** for **Data & AI Hackathon 2026**.
+## Author
+
+**Manshi**
+B.Tech CSE (AI & Data Science)
+Graphic Era Hill University
+
+Built for **Data & AI Hackathon 2026**.
