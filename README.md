@@ -76,23 +76,27 @@ Each candidate receives:
 
 ### Dashboard & Data Upload
 
-![Dashboard](screenshots/1-dashboard-upload.png)
+![Dashboard](screenshots/1dashboard-upload.png.png)
 
 ### Ranking Results Overview
 
-![Results Overview](screenshots/2-results-overview.png)
+![Results Overview](screenshots/2results-overview.png.png)
 
 ### Explainable Candidate Analysis
 
-![Candidate Analysis](screenshots/3-candidate-details.png)
+![Candidate Analysis](screenshots/3candidate-details.png)
 
-### Analytics & Score Visualization
+### Score Analysis & Visualizations
 
-![Analytics](screenshots/4-score-analysis.png)
+![Score Analysis](screenshots/5score-analysis.png.png)
 
 ### Ranked Candidate Table
 
-![Ranked Table](screenshots/5-ranked-table.png)
+![Ranked Table](screenshots/4ranked-table.png.png)
+
+### CSV Export Results
+
+![Download Results](screenshots/6download-results.png.png)
 
 ---
 
@@ -169,7 +173,7 @@ Candidates are automatically classified into recruiter-friendly categories:
 * CSV
 * XLSX
 
-> Note: Large candidate datasets are not included in this repository. Users can upload their own JSONL, CSV, JSON, or XLSX files directly through the Streamlit interface.
+> Large candidate datasets are not included in this repository. Users can upload their own datasets directly through the Streamlit interface.
 
 ---
 
@@ -221,14 +225,14 @@ TalentLens-AI/
 ├── embeddings.py
 │
 ├── screenshots/
-│   ├── 1-dashboard-upload.png
-│   ├── 2-results-overview.png
-│   ├── 3-candidate-details.png
-│   ├── 4-score-analysis.png
-│   └── 5-ranked-table.png
+│   ├── 1dashboard-upload.png.png
+│   ├── 2results-overview.png.png
+│   ├── 3candidate-details.png
+│   ├── 4ranked-table.png.png
+│   ├── 5score-analysis.png.png
+│   └── 6download-results.png.png
 │
-├── outputs/                 # Generated after running the app
-│
+├── outputs/
 ├── requirements.txt
 └── README.md
 ```
@@ -236,8 +240,6 @@ TalentLens-AI/
 ---
 
 ## Performance
-
-Typical performance:
 
 | Candidate Count | Runtime    |
 | --------------- | ---------- |
@@ -297,7 +299,7 @@ streamlit run app.py
 
 ## Author
 
-**Manshi**
+**Manshi Negi**
 B.Tech CSE (AI & Data Science)
 Graphic Era Hill University
 
