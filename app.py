@@ -47,7 +47,7 @@ def hiring_decision(score: float) -> str:
 
 
 with st.sidebar:
-    st.markdown("## 🧠 TalentLens AI")
+    st.markdown("## 🧠 CandidateIQ")
     st.caption("Explainable multi-signal candidate ranking")
     st.divider()
 
