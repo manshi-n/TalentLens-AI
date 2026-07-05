@@ -1,3 +1,7 @@
-altair
-pandas
 streamlit
+pandas
+numpy
+scikit-learn
+plotly
+openpyxl
+python-docx
