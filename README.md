@@ -9,6 +9,13 @@ app_port: 8501
 pinned: false
 ---
 
+## 🚀 Live Demo
+
+Try TalentLens AI here: **[talentlensai on Hugging Face](https://huggingface.co/spaces/manshi1234/talentlensai)**
+
+> Note: For fast performance in the live demo, upload a smaller candidate dataset (a few thousand rows). The app is built to handle up to 100,000 candidates — see the scoring engine details below for how it scales.
+
+
 # TalentLens AI
 
 **Explainable Multi-Signal Candidate Intelligence Engine**
