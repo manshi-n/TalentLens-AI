@@ -13,8 +13,7 @@ pinned: false
 
 Try TalentLens AI here: **[talentlensai on Hugging Face](https://huggingface.co/spaces/manshi1234/talentlensai)**
 
-> Note: For fast performance in the live demo, upload a smaller candidate dataset (a few thousand rows). The app is built to handle up to 100,000 candidates — see the scoring engine details below for how it scales.
-
+> **Note:** For the best experience in the live demo, please upload a smaller candidate dataset (up to a few thousand records). The application is designed to scale to much larger datasets (up to 100,000 candidates), but large files may take longer to process on the free Hugging Face hosting environment.
 
 # TalentLens AI
 
